@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".page1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/backgroundLayout"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/bg"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="130dp"/>
+
+    <ImageView
+        android:id="@+id/black"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/resort"
+        app:tint="@color/black"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <ImageView
+        android:id="@+id/white"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/resort"
+        app:tint="@color/white"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+
+
+
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
