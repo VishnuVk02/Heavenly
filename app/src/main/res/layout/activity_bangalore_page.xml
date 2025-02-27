@@ -87,16 +87,31 @@
             <!--                    android:layout_marginTop="5dp"-->
             <!--                    tools:ignore="contentDescription"/>-->
             <!--            </LinearLayout>-->
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="  Rated High For Cleanliness"
-                android:textColor="#D736E9"
-                android:layout_marginStart="25dp"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"
-                tools:ignore="HardCodedText"
-                app:drawableStartCompat="@drawable/baseline_thumb_up_off_alt_24" />
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/baseline_thumb_up_off_alt_24"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Rated high for cleaniness"
+                    android:textSize="16sp"
+                    android:textColor="@color/pink"
+                    android:textStyle="bold"
+                    tools:ignore="HardCodedText,TextContrastCheck" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -127,6 +142,15 @@
                     android:contentDescription="Rating information"
                     android:importantForAccessibility="yes"
                     tools:ignore="HardCodedText"/>
+
+                <Button
+                    android:id="@+id/book1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="8dp"
+                    android:text="book"
+                    tools:ignore="HardcodedText,DuplicateSpeakableTextCheck" />
 
             </LinearLayout>
 
@@ -181,16 +205,31 @@
             <!--                    android:layout_marginStart="25dp"-->
             <!--                    android:layout_marginTop="5dp"-->
             <!--                    tools:ignore="contentDescription"/>-->
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="  Rated High For Cleanliness"
-                android:textColor="#D736E9"
-                android:textStyle="bold"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                tools:ignore="HardCodedText"
-                app:drawableStartCompat="@drawable/baseline_thumb_up_off_alt_24" />
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/baseline_thumb_up_off_alt_24"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Rated high for cleaniness"
+                    android:textSize="16sp"
+                    android:textColor="@color/pink"
+                    android:textStyle="bold"
+                    tools:ignore="HardCodedText,TextContrastCheck" />
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -220,6 +259,15 @@
                     android:contentDescription="Rating information"
                     android:importantForAccessibility="yes"
                     tools:ignore="HardCodedText"/>
+
+                <Button
+                    android:id="@+id/book2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="book"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="8dp"
+                    tools:ignore="HardcodedText" />
 
             </LinearLayout>
             <LinearLayout
@@ -274,16 +322,31 @@
             <!--                    android:layout_marginTop="5dp"-->
             <!--                    tools:ignore="contentDescription"/>-->
             <!--            </LinearLayout>-->
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="  Rated High For Cleanliness"
-                android:textColor="#D736E9"
-                android:textStyle="bold"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="10dp"
-                tools:ignore="HardCodedText"
-                app:drawableStartCompat="@drawable/baseline_thumb_up_off_alt_24" />
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/baseline_thumb_up_off_alt_24"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Rated high for cleaniness"
+                    android:textSize="16sp"
+                    android:textColor="@color/pink"
+                    android:textStyle="bold"
+                    tools:ignore="HardCodedText,TextContrastCheck" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -314,6 +377,15 @@
                     android:contentDescription="Rating information"
                     android:importantForAccessibility="yes"
                     tools:ignore="HardCodedText"/>
+
+                <Button
+                    android:id="@+id/book3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="book"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="8dp"
+                    tools:ignore="HardcodedText" />
 
             </LinearLayout>
             <LinearLayout
@@ -407,6 +479,15 @@
                     android:contentDescription="Rating information"
                     android:importantForAccessibility="yes"
                     tools:ignore="HardCodedText"/>
+
+                <Button
+                    android:id="@+id/book4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="book"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="8dp"
+                    tools:ignore="HardcodedText" />
 
             </LinearLayout>
         </LinearLayout>
