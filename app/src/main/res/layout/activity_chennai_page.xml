@@ -48,7 +48,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
-                    android:src="@drawable/resort9"
+                    android:src="@drawable/chennaiResort1"
                     android:background="@drawable/shape"
                     android:contentDescription="resort_chennai_1"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
@@ -168,7 +168,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
-                    android:src="@drawable/resort9"
+                    android:src="@drawable/chennaiResort2"
                     android:background="@drawable/shape"
                     android:contentDescription="resort_chennai_2"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
@@ -284,7 +284,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
-                    android:src="@drawable/resort9"
+                    android:src="@drawable/chennaiResort3"
                     android:background="@drawable/shape"
                     android:contentDescription="Resort_chennai_3"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
@@ -402,7 +402,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
-                    android:src="@drawable/resort9"
+                    android:src="@drawable/resort7"
                     android:background="@drawable/shape"
                     android:contentDescription="resort_chennai_4"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
