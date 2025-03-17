@@ -46,7 +46,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
-                    android:src="@drawable/resort9"
+                    android:src="@drawable/bangaloreresort1"
                     android:background="@drawable/shape"
                     android:contentDescription="resort_chennai_1"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
@@ -54,7 +54,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Shifa's Beach View Resort"
+                    android:text="Rajan Resorts and Cottages"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -66,7 +66,7 @@
                     android:id="@+id/ECR"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ECR , CHENNAI"
+                    android:text="Chikmagalur , Karnataka"
                     android:textSize="18sp"
                     android:textColor="#373636"
                     android:textStyle="bold"
@@ -121,7 +121,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="₹2000"
+                    android:text="₹8000"
                     android:textSize="18sp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
@@ -133,7 +133,7 @@
                     android:id="@+id/txtr1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3000"
+                    android:text="₹10000"
                     android:textStyle="bold"
                     android:textColor="#4A4949"
                     android:layout_marginTop="8dp"
@@ -166,7 +166,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
-                    android:src="@drawable/resort9"
+                    android:src="@drawable/bangaloeresort2"
                     android:background="@drawable/shape"
                     android:contentDescription="resort_chennai_2"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
@@ -174,7 +174,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Shifa's Beach View Resort"
+                    android:text="Rockwell Stay"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -186,7 +186,7 @@
                     android:id="@+id/ecr2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ECR , CHENNAI"
+                    android:text="Mysore , Karnataka"
                     android:textSize="18sp"
                     android:textColor="#373636"
                     android:textStyle="bold"
@@ -238,7 +238,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="₹2000"
+                    android:text="₹6500"
                     android:textSize="18sp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
@@ -250,7 +250,7 @@
                     android:id="@+id/txtr2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3000"
+                    android:text="₹8000"
                     android:textStyle="bold"
                     android:textColor="#4A4949"
                     android:layout_marginTop="8dp"
@@ -264,10 +264,10 @@
                     android:id="@+id/book2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="book"
                     android:layout_marginStart="130dp"
                     android:layout_marginTop="8dp"
-                    tools:ignore="HardcodedText" />
+                    android:text="book"
+                    tools:ignore="HardcodedText,DuplicateSpeakableTextCheck" />
 
             </LinearLayout>
             <LinearLayout
@@ -282,7 +282,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
-                    android:src="@drawable/resort9"
+                    android:src="@drawable/bangaloreresort3"
                     android:background="@drawable/shape"
                     android:contentDescription="Resort_chennai_3"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
@@ -290,7 +290,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Shifa's Beach View Resort"
+                    android:text="Lakshyam Spring"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -302,7 +302,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ECR , CHENNAI"
+                    android:text="Chikmagalur , Karnataka"
                     android:textSize="18sp"
                     android:textColor="#373636"
                     android:textStyle="bold"
@@ -356,7 +356,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="₹2000"
+                    android:text="₹7000"
                     android:textSize="18sp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
@@ -368,7 +368,7 @@
                     android:id="@+id/txtr3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3000"
+                    android:text="₹8000"
                     android:textStyle="bold"
                     android:textColor="#4A4949"
                     android:layout_marginTop="8dp"
@@ -400,7 +400,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
-                    android:src="@drawable/resort9"
+                    android:src="@drawable/bangaloreressort4"
                     android:background="@drawable/shape"
                     android:contentDescription="resort_chennai_4"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
@@ -408,7 +408,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Shifa's Beach View Resort"
+                    android:text="Palm Meadows Resort"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -419,7 +419,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ECR , CHENNAI"
+                    android:text="Bangalore , Karnataka"
                     android:textSize="18sp"
                     android:textColor="#373636"
                     android:textStyle="bold"
@@ -458,7 +458,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="₹2000"
+                    android:text="₹6500"
                     android:textSize="18sp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
@@ -470,7 +470,7 @@
                     android:id="@+id/txtr4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3000"
+                    android:text="7500"
                     android:textStyle="bold"
                     android:textColor="#4A4949"
                     android:layout_marginTop="8dp"
