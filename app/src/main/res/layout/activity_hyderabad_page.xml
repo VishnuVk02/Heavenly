@@ -41,7 +41,7 @@
                 android:layout_marginTop="20dp">
 
                 <ImageButton
-                    android:layout_width="360dp"
+                    android:layout_width="380dp"
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
@@ -54,7 +54,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Shifa's Beach View Resort"
+                    android:text="Grand View Resort"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -161,7 +161,7 @@
                 android:layout_marginTop="20dp">
 
                 <ImageButton
-                    android:layout_width="360dp"
+                    android:layout_width="380dp"
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
@@ -278,12 +278,12 @@
                 android:layout_marginTop="20dp">
 
                 <ImageButton
-                    android:layout_width="360dp"
+                    android:layout_width="380dp"
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
-                    android:src="@drawable/hyderabadResort3"
+                    android:src="@drawable/hresort3"
                     android:background="@drawable/shape"
                     android:contentDescription="Resort_chennai_3"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
@@ -291,7 +291,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Shifa's Beach View Resort"
+                    android:text="PeasCon Resort"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -396,7 +396,7 @@
                 android:layout_marginTop="20dp">
 
                 <ImageButton
-                    android:layout_width="360dp"
+                    android:layout_width="380dp"
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:scaleType="fitXY"

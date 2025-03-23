@@ -43,7 +43,7 @@
                 android:layout_marginTop="20dp">
 
                 <ImageButton
-                    android:layout_width="360dp"
+                    android:layout_width="340dp"
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
@@ -163,7 +163,7 @@
                 android:layout_marginTop="20dp">
 
                 <ImageButton
-                    android:layout_width="360dp"
+                    android:layout_width="340dp"
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
@@ -279,7 +279,7 @@
                 android:layout_marginTop="20dp">
 
                 <ImageButton
-                    android:layout_width="360dp"
+                    android:layout_width="340dp"
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
@@ -397,7 +397,7 @@
                 android:layout_marginTop="20dp">
 
                 <ImageButton
-                    android:layout_width="360dp"
+                    android:layout_width="340dp"
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
