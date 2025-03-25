@@ -40,6 +40,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:clickable="true"
+                android:onClick="shriram"
                 android:layout_marginTop="20dp">
 
                 <ImageButton
@@ -50,6 +52,8 @@
                     android:clipToOutline="true"
                     android:src="@drawable/chennairesort1"
                     android:background="@drawable/shape"
+                    android:clickable="true"
+                    android:onClick="shriram"
                     android:contentDescription="resort_chennai_1"
                     tools:ignore="HardCodedText,UnusedAttribute"/>
 
@@ -152,6 +156,7 @@
                     android:text="book"
                     android:layout_marginStart="130dp"
                     android:layout_marginTop="5dp"
+                    android:onClick="shriram"
                     tools:ignore="HardcodedText" />
 
             </LinearLayout>
@@ -168,6 +173,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
+                    android:onClick="chariot"
                     android:src="@drawable/chennairesort2"
                     android:background="@drawable/shape"
                     android:contentDescription="resort_chennai_2"
@@ -177,6 +183,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Chariot Beach Resort"
+                    android:clickable="true"
+                    android:onClick="chariot"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -267,6 +275,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="book"
+                    android:onClick="chariot"
                     android:layout_marginStart="130dp"
                     android:layout_marginTop="5dp"
                     tools:ignore="HardcodedText" />
@@ -284,6 +293,7 @@
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
                     android:clipToOutline="true"
+                    android:onClick="shifa"
                     android:src="@drawable/chennairesort3"
                     android:background="@drawable/shape"
                     android:contentDescription="Resort_chennai_3"
@@ -293,6 +303,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Shifa's Beach View Resort"
+                    android:clickable="true"
+                    android:onClick="shifa"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -401,6 +413,7 @@
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:scaleType="fitXY"
+                    android:onClick="mermaid"
                     android:clipToOutline="true"
                     android:src="@drawable/chennairesort4"
                     android:background="@drawable/shape"
@@ -411,6 +424,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Mermaid Island"
+                    android:clickable="true"
+                    android:onClick="mermaid"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -502,6 +517,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="book"
+                    android:onClick="mermaid"
                     android:layout_marginStart="130dp"
                     android:layout_marginTop="5dp"
                     tools:ignore="HardcodedText" />

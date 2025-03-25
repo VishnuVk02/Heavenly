@@ -13,6 +13,30 @@
         android:theme="@style/Theme.Heavenly"
         tools:targetApi="31">
         <activity
+            android:name=".shihaabi"
+            android:exported="false" />
+        <activity
+            android:name=".peascon"
+            android:exported="false" />
+        <activity
+            android:name=".anandhan"
+            android:exported="false" />
+        <activity
+            android:name=".grand_view"
+            android:exported="false" />
+        <activity
+            android:name=".mermaid_island"
+            android:exported="false" />
+        <activity
+            android:name=".Shifa_Beach_view_resort"
+            android:exported="false" />
+        <activity
+            android:name=".chariot_beach_resort"
+            android:exported="false" />
+        <activity
+            android:name=".shriram_resort"
+            android:exported="false" />
+        <activity
             android:name=".mumbai_page"
             android:exported="false" />
         <activity

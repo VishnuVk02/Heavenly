@@ -1,7 +1,9 @@
 package com.example.heavenly;
 
+import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,5 +28,26 @@ public class chennai_page extends AppCompatActivity {
         tv4 = findViewById(R.id.txtr4);
         tv4.setPaintFlags(tv4.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 
+    }
+
+    public void shriram(View view) {
+        Intent i =new Intent(chennai_page.this, shriram_resort.class);
+        startActivity(i);
+    }
+
+    public void chariot(View view) {
+        Intent i =new Intent(chennai_page.this, chariot_beach_resort.class);
+        startActivity(i);
+
+    }
+
+    public void shifa(View view) {
+        Intent i = new Intent(chennai_page.this , Shifa_Beach_view_resort.class);
+        startActivity(i);
+    }
+
+    public void mermaid(View view) {
+        Intent i =new Intent(chennai_page.this, mermaid_island.class);
+        startActivity(i);
     }
 }

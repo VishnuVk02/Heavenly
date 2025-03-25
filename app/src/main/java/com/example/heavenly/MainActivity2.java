@@ -65,4 +65,9 @@ public class MainActivity2 extends AppCompatActivity {
         tv3 = findViewById(R.id.txtr3);
         tv3.setPaintFlags(tv3.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
     }
+
+    public void shriram(View view) {
+        Intent i =new Intent(MainActivity2.this , shriram_resort.class);
+        startActivity(i);
+    }
 }
