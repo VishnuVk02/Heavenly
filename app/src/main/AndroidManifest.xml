@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Heavenly"
         tools:targetApi="31">
         <activity
+            android:name=".rajan_resort"
+            android:exported="false" />
+        <activity
             android:name=".shihaabi"
             android:exported="false" />
         <activity

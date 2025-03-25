@@ -182,15 +182,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Chariot Beach Resort"
-                    android:clickable="true"
-                    android:onClick="chariot"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
                     android:layout_marginStart="25dp"
                     android:layout_marginTop="5dp"
-                    tools:ignore="HardCodedText"/>
+                    android:clickable="true"
+                    android:onClick="chariot"
+                    android:text="Chariot Beach Resort"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardCodedText,TouchTargetSizeCheck" />
 
                 <TextView
                     android:id="@+id/ecr2"
@@ -302,16 +302,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Shifa's Beach View Resort"
-                    android:clickable="true"
-                    android:onClick="shifa"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
                     android:layout_marginStart="25dp"
                     android:layout_marginTop="5dp"
-                    tools:ignore="HardCodedText"
-                    android:contentDescription="Resort Name:Shifa"/>
+                    android:clickable="true"
+                    android:contentDescription="Resort Name:Shifa"
+                    android:onClick="shifa"
+                    android:text="Shifa's Beach View Resort"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardCodedText,TouchTargetSizeCheck" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -423,15 +423,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mermaid Island"
-                    android:clickable="true"
-                    android:onClick="mermaid"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
                     android:layout_marginStart="25dp"
                     android:layout_marginTop="5dp"
-                    tools:ignore="HardCodedText"/>
+                    android:clickable="true"
+                    android:onClick="mermaid"
+                    android:text="Mermaid Island"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardCodedText,TouchTargetSizeCheck" />
 
                 <TextView
                     android:layout_width="wrap_content"
